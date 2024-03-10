@@ -4,7 +4,6 @@ import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button'
 
 import ROUTES from '../../../core/routes/routesModel';
-import errorImg from '../../../assets/images/error_page1.png';
 
 const ErrorPage = () => {
     const navigate = useNavigate()
@@ -13,9 +12,10 @@ const ErrorPage = () => {
         <Container >
             <Grid container spacing={2}>
                 <Grid item xs={12} md={12} justifyContent="center">
-                    <img src={errorImg}
-                         alt="Error Page" width="100%"/> 
+                    <img src="./assets/images/error_page1.png" 
+                         alt="broken robot" width="100%"/>
                 </Grid>
+                
                 <Button variant="text" color="primary" onClick={() => navigate(ROUTES.CARDS)}
                     style={{ marginTop: "20px", fontSize: "20px" }}>
                     Go back to homepage
