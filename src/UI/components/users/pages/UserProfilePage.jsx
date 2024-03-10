@@ -31,7 +31,7 @@ const UserProfilePage = () => {
     return (
         <Box minHeight={100} sx={{ padding: { xs: 1, sm: 4}}}  >
             <Paper elevation={15} sx={{ borderRadius: '8px',background: isDark ? '#344a54' : '#f7f5f5' }} >
-                <img src="/assets/images/profile_banner.png" alt="profile" 
+                <img src="/React-Cards/assets/images/profile_banner.png" alt="profile" 
                     style={{ width: '100%', height: '150px', borderTopLeftRadius: '8px', borderTopRightRadius: '8px' }} />
                 
                 <Paper sx={{ padding: 2, borderRadius:'0', background: isDark ? '#344a54' : '#f7f5f5'}} >

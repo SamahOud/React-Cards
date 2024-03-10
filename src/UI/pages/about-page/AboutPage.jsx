@@ -14,7 +14,7 @@ const AboutPage = () => {
                 />
                 <Grid container spacing={2}>
                     <Grid item md={8} xs={12} alignSelf="center" sx={{display: {md: 'flex'}, justifyContent: "center"}}>
-                        <img src="/assets/images/about_page1.png" alt="card" width="100%" />
+                        <img src="/React-Cards/assets/images/about_page1.png" alt="about" width="100%" />
                     </Grid>
 
                     <Grid item md={4} xs={12} alignSelf="center" textAlign="center" sx={{margin: {xs: 4, md: 0},color: isDark ? 'white' : 'black'}}> 

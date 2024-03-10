@@ -19,8 +19,8 @@ const CardsFeedback = ({ isPending, error, cards, onDeleteCard, onLike }) => {
                 </Typography>
 
                 <Grid item xs={12} md={12} justifyContent="center">
-                    <img src="/assets/images/error_oops1.png" 
-                        alt="broken robot" width="100%"/>
+                    <img src="/React-Cards/assets/images/error_oops1.png" 
+                        alt="page not found" width="100%"/>
                 </Grid>
                 
             </Grid>

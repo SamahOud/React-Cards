@@ -4,7 +4,6 @@ import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button'
 
 import ROUTES from '../../../core/routes/routesModel';
-import errorImg from '../../../../public/assets/images/error_page1.png';
 
 const ErrorPage = () => {
     const navigate = useNavigate()
@@ -13,7 +12,7 @@ const ErrorPage = () => {
         <Container >
             <Grid container spacing={2}>
                 <Grid item xs={12} md={12} justifyContent="center">
-                    <img src={errorImg}
+                    <img src='/React-Cards/assets/images/error_page1.png'
                          alt="Error Page" width="100%"/>
                 </Grid>
                 
