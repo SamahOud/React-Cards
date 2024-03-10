@@ -7,7 +7,7 @@ const PageHeader = ({ title, subtitle }) => {
     return (
         <Box marginBottom={6}>
             <Paper elevation={15} sx={{ borderRadius: '8px', background: isDark ? '#344a54' : '#f7f5f5' }} >
-                <img src={`${process.env.PUBLIC_URL}/React-Cards/assets/images/profile_banner.png`} alt="profile" 
+                <img src={`${process.env.PUBLIC_URL}/assets/images/profile_banner.png`} alt="profile" 
                     style={{ width: '100%', height: '120px', borderTopLeftRadius: '8px', borderTopRightRadius: '8px' }} />
                 
                 <Paper sx={{ padding: 2, mt: 0, pt: 0, background: isDark ? '#344a54' : '#f7f5f5'}} >
