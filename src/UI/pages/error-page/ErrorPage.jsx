@@ -12,7 +12,7 @@ const ErrorPage = () => {
         <Container >
             <Grid container spacing={2}>
                 <Grid item xs={12} md={12} justifyContent="center">
-                    <img src="./assets/images/error_page1.png" 
+                    <img src="../../../assets/images/error_page1.png" 
                          alt="broken robot" width="100%"/>
                 </Grid>
                 
