@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
 import { ThemeProvider } from './UI/providers/ThemeProvider'
 import { SnackbarProvider } from './UI/providers/SnackbarProvider'
