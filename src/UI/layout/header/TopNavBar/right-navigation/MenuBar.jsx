@@ -9,6 +9,8 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import IconButton from '@mui/material/IconButton'
 import LightModeIcon from '@mui/icons-material/LightMode'
 import DarkModeIcon from '@mui/icons-material/DarkMode'
+import LoginIcon from '@mui/icons-material/Login';
+import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
 
 import { useUser } from "../../../../components/users/providers/UserProvider"
 import  useUsers  from "../../../../components/users/hooks/useUsers"
@@ -78,28 +80,32 @@ const MenuBar = ({ isMenuOpen, anchorEl, onCloseMenu }) => {
             <Divider />
 
             <MenuItem sx={{...styles, paddingLeft: 1}} onClick={onCloseMenu}>
-                <IconButton sx={{margin: 0,paddingLeft: 0}} onClick={toggleDarkMode}>
+                <IconButton sx={{paddingBottom: 0, paddingTop: 0,paddingLeft: 0}} onClick={toggleDarkMode}>
                     {isDark ? <LightModeIcon sx={{margin: 0}}/> : <DarkModeIcon sx={{margin: 0}}/>}
                 </IconButton>{isDark ? 'Light' : 'Dark'}
             </MenuItem>
+            <Divider style={{marginTop: 0, marginBottom: 0}}/>
             
 
             { !user && (
                 <Box>
                     <NavBarLink to={ROUTES.LOGIN}>
                         <MenuItem
-                            sx={{ display: { xs: "block", md: "none" }}}
+                            sx={{ ...styles, paddingLeft: 1, display: { xs: "inline-flex", md: "none" }}}
                             onClick={onCloseMenu}
                         >
+                            <LoginIcon sx={{marginRight: 1}}/>
                             Login
                         </MenuItem>
                     </NavBarLink>
+                    <Divider />
 
                     <NavBarLink to={ROUTES.SIGNUP}>
                         <MenuItem
-                            sx={{ display: { xs: "block", md: "none" } }}
+                            sx={{ ...styles, paddingLeft: 1, display: { xs: "inline-flex", md: "none" } }}
                             onClick={onCloseMenu}
                         >
+                            <AppRegistrationIcon sx={{marginRight: 1}}/>
                             SignUp
                         </MenuItem>
                     </NavBarLink>
