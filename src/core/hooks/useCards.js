@@ -54,13 +54,13 @@ const useCards = () => {
         try {
             setPending(true);
             const cards = await getCards();
-            snack("success", "success")
+            snack("success", "Success")
             requestStatus(null, cards, false, null);
         } catch (error) {
             snack("error", error)
             requestStatus(null, null, false, error);
         }
-    }, [])
+    }, [snack])
 
     // ******** Handle Get Card ********
     const handleGetCard = useCallback(async (cardFromClient) => {
@@ -79,13 +79,13 @@ const useCards = () => {
         try {
             setPending(true);
             const cards = await getMyCards();
-            snack("success", "success")
+            // snack("success", "Success")
             requestStatus(null, cards, false, null);
         } catch (error) {
             snack("error", error)
             requestStatus(null, null, false, error);
         }
-    }, [snack])
+    }, [])
 
     // ******** Handle Delete Card ********
     const handleDeleteCard = useCallback(async (cardId) => {
