@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Cards/static/css/main.f1d2d579.css",
-    "main.js": "/React-Cards/static/js/main.048db757.js",
+    "main.js": "/React-Cards/static/js/main.6b3f33d5.js",
     "static/js/787.a00868a0.chunk.js": "/React-Cards/static/js/787.a00868a0.chunk.js",
     "static/media/roboto-latin-500-normal.woff2": "/React-Cards/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/React-Cards/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
@@ -61,11 +61,11 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/React-Cards/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/React-Cards/index.html",
     "main.f1d2d579.css.map": "/React-Cards/static/css/main.f1d2d579.css.map",
-    "main.048db757.js.map": "/React-Cards/static/js/main.048db757.js.map",
+    "main.6b3f33d5.js.map": "/React-Cards/static/js/main.6b3f33d5.js.map",
     "787.a00868a0.chunk.js.map": "/React-Cards/static/js/787.a00868a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1d2d579.css",
-    "static/js/main.048db757.js"
+    "static/js/main.6b3f33d5.js"
   ]
 }
